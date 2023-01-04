@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--[IE Compatibility meta]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--[meta for mobile]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="description of content of the site">
+    <title>LTG BROADCASTING</title>
+    <!--[normalize file exists in bootstrap file]
+        <link rel="stylesheet" href="../css/normalize.css">
+-->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/home.css">
+    <!--[if it's IE]-->
+</head>
+
+
+<body>
+    <!--start navbar-->
+    <nav class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa fa-bars"></i>
+        </label>
+        <label class="logo"><img src="imgs/logo.jpeg" width="80px" height="80px" alt=""></label>
+        <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="Category.html">Categories</a></li>
+            <li><a href="#" id="t_checkCart" class="list">Cart</a></li>
+        </ul>
+    </nav>
+    <div class="header"></div>
+    <!--end navbar-->
+
+    <!-- start categories image slider -->
+    <!-- categories title -->
+    <div>
+        <div style="height: 100px;position: relative;">
+            <h1 style="font-family:Noto Sans;top:40%;position: absolute ;left: 45%;">Categories</h1>
+        </div>
+        <!-- categories card -->
+        <div class="cat-card">
+            <div id="ACatContain" class="A_Catcontain">
+                <a id="ACatprev" class="A_prev" style="top:40%">❮</a>
+                <a id="ACatnext" class="A_next" style="top:40%;right: 0%;">❯</a>
+            </div>
+        </div>
+    </div>
+    <!-- end categories image slider -->
+    <div>
+        <hr>
+    </div>
+    <!-- start Bestsellers image slider -->
+    <!-- Bestsellers title -->
+    <div>
+        <div style="height: 100px;position: relative;">
+            <h1 style="font-family:Noto Sans;top:40%;position: absolute ;left: 45%;">Bestsellers</h1>
+        </div>
+        <!-- Bestsellers card -->
+        <div style="position: relative">
+            <div id="ABestContain" class="A_Bestcontain">
+                <a id="ABestprev" class="A_prev">❮</a>
+                <a id="ABestnext" class="A_next">❯</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- end Bestsellers image slider -->
+
+    <!-- Start About -->
+    <!-- <hr>
+    <div class="about" id="about">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, fuga modi tempore, possimus reprehenderit
+            voluptas fugit eligendi est dignissimos, eius sed quis impedit! Excepturi, quasi exercitationem quisquam
+            fugit in corrupti!</p>
+    </div>
+    <hr> -->
+    <!-- End About -->
+
+    <!--Start Footer-->
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="imgs/logo.jpeg">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos laboriosam hic obcaecati quam et
+                quaerat!</p>
+            <div class="socials">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+        <ul class="footer-right">
+            <li>
+                <h2>About</h2>
+                <ul class="box">
+                    <li><a href="#">About Shop</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">404 errorpage</a></li>
+                </ul>
+            </li>
+            <li class="features">
+                <h2>Cataloge</h2>
+                <ul class="box">
+                    <li><a href="#">New income</a></li>
+                    <li><a href="#">Bestsellers</a></li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="#">Size guide</a></li>
+                    <li><a href="#">404 errorpage</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Customer Info</h2>
+                <ul class="box">
+                    <li><a href="#">About Shop</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">404 errorpage</a></li>
+                </ul>
+            </li>
+        </ul>
+        <p class="copyright">© Copyright 2022 Dream-Theme. All rights reserved.</p>
+    </footer>
+    <div id="t_cart_Page">
+        <div id="t_cartHeader">
+            <h3>Your Cart</h3>
+            <p id="t_x_button">X</p>
+        </div>
+
+        <div id="t_cartItemContainer"></div>
+    </div>
+
+
+    <div id="t_overLay" style="display: none;"></div>
+    <!--End Footer-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/lib.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
